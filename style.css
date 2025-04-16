@@ -1,0 +1,117 @@
+/* Centralização da logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Estilo geral para o fundo */
+.stApp {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+/* Estilo para o conteúdo principal */
+.main {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+/* Estilo da sidebar */
+[data-testid="stSidebar"] {
+    background-color: #000000 !important;
+    border: 2px solid #FFA500 !important;
+    border-radius: 10px !important;
+    color: #FFA500 !important;
+}
+
+/* Estilo para os elementos dentro da sidebar */
+.sidebar .sidebar-content {
+    background-color: #000000 !important;
+    color: #FFA500 !important;
+}
+
+/* Estilo para títulos na sidebar */
+.sidebar .sidebar-content h1,
+.sidebar .sidebar-content h2,
+.sidebar .sidebar-content h3,
+.sidebar .sidebar-content h4,
+.sidebar .sidebar-content h5,
+.sidebar .sidebar-content h6 {
+    color: #FFA500 !important;
+}
+
+/* Filtros */
+.stMultiSelect, .stSelectbox {
+    background-color: #000000 !important;
+    color: #FFA500 !important;
+    border: 1px solid #FFA500 !important;
+}
+
+/* Botões da sidebar */
+.stDownloadButton > button {
+    background-color: #FFA500 !important;
+    color: #000000 !important;
+    border: 1px solid #FFA500 !important;
+    border-radius: 5px !important;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #000000 !important;
+    color: #FFA500 !important;
+    border: 1px solid #FFA500 !important;
+}
+
+/* Separadores */
+.sidebar .sidebar-content hr {
+    border-top: 1px solid #FFA500 !important;
+}
+
+/* Entradas de texto */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    color: #FFA500 !important;
+    background-color: #000000 !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #FFA500 !important;
+}
+
+/* Estilos das tabelas */
+.stDataFrame, .stTable, .stAgGrid {
+    background-color: #000000 !important;
+    color: #FFA500 !important;
+}
+
+/* Estilo para as células da tabela */
+.stTable th, .stTable td {
+    background-color: #000000 !important;
+    color: #FFA500 !important;
+    border: 1px solid #FFA500 !important;
+}
+
+/* Alternando o fundo das linhas da tabela */
+.stTable tr:nth-child(even) {
+    background-color: #1a1a1a !important;
+}
+
+.stTable tr:nth-child(odd) {
+    background-color: #000000 !important;
+}
+
+/* Ajuste para as células da tabela para garantir a consistência */
+.stTable td {
+    padding: 10px !important;
+    text-align: center !important;
+}
+
+.stTable th {
+    padding: 12px !important;
+    text-align: center !important;
+}
